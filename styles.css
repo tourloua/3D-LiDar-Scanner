@@ -1,0 +1,64 @@
+/* General body styling */
+body {
+    background-color: #01063b;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+/* Image Container Styling */
+.image-container {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    gap: 20px; /* Space between the images */
+    margin-bottom: 20px; /* Space below the images */
+    align-items: center; /* Align items vertically to the center */
+}
+
+/* Individual Image Styling */
+.side-by-side {
+    width: 45%; /* Set both images to the same width */
+    max-height: 50vh; /* Reduce the maximum height to 50% of the viewport height */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the entire image is visible */
+}
+
+/* Centered Text Styling */
+.centered-text {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    color: #faf9bb;
+    font-family: 'Fredoka', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Back Button Styling */
+.back-text {
+    position: fixed;
+    top: -1vw;
+    left: 0.2%;
+    font-size: 2vw;
+    color: #faf9bb;
+    cursor: pointer;
+}
+
+.back-text:hover {
+    color: white;
+}
+
+/* Additional Text Styling */
+.word-moved-down {
+    transform: translateY(3vh); /* Default value for other words */
+}
+
+.added-text {
+    color: #faf9bb;
+    margin-top: 10px;
+    text-align: left;
+}
+
